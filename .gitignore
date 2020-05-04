@@ -1,0 +1,197 @@
+######################
+# Project Specific
+######################
+/target/www/**
+/test/target
+/test/build
+
+######################
+# Node
+######################
+/node/**
+/node_tmp/**
+**/node_modules
+######################
+# SASS
+######################
+.sass-cache/**
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+/bin/**
+/tmp/**
+/tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/**
+.loadpath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Intellij
+######################
+.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+ui/.idea/**
+
+######################
+# Maven
+######################
+/log/**
+/target/**
+
+######################
+# Gradle
+######################
+.gradle/**
+
+######################
+# Package Files
+######################
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Directories
+######################
+**/build
+/spring_loaded/**
+/deploy/**
+build.lib
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+# gradle/wrapper/*
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# ESLint
+######################
+.eslintcache
+
+/spec/**
+.idea/
+src/main/webapp/
+*/target/
+
+ui/**/*.jsx
+*.jsx
+/src/main/resources/config/application-local.yml
+/ui/.awcache/
+
+.h2.server.properties
+logback-access.xml
+/src/main/resources/config/application-local-h2-db.yml
+logback-local-h2-db.xml
+**/.nb-gradle/
+**/.gradle/
+**/nbproject/
+**/.nb-gradle-properties
+/lib/*
+/out/test/*
+*.pdb
+*.ldb
+*.jasper
+*.old
+nbactions-dev.xml
+
+out/*
+/ui/src/customer/pages/test_dir/
+/db/gradle/
+/plugin-api/gradle/
+npm-debug.log*
+/integrator.conf
+/iit/
+
+**/*.doc
+**/*.docx
+**/*.xls
+**/*.xlsx
+
+**/gradlew.bat
+**/gradlew
+/.nb-gradle/
+
+default/integrator/gradle*
+
+classes/
+**/local/
+.awcache/
+*.stats
+header.tex
+/build/
+**/package-lock.json
+
+# Wiki
+.hugo
+**/.git
+!wiki/themes/hugo-theme-techdoc/layouts
+!wiki/themes/hugo-theme-techdoc/archetypes
+!wiki/themes/hugo-theme-techdoc/static
+wiki/themes/hugo-theme-techdoc/**
+wiki/static/external/*
