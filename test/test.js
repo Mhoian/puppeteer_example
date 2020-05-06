@@ -32,7 +32,6 @@ describe(
             await page.click(".FPdoLc > center:nth-child(1) > input:nth-child(1)");
             await page.waitForSelector(".q");
             await page.screenshot({path: 'google.png'});
-            await page.delete()
         });
     },
     timeout,

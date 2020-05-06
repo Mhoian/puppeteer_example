@@ -1,0 +1,22 @@
+@Library('Helper') import ibs.jenkins.Helper
+
+timestamps {
+
+  node () {
+    def helper = new Helper(this)
+    try {
+      stage ('Checkout') {
+        helper.checkoutSingle('autotest', 'master')
+      }
+      stage ('Test') {
+sh '''#!/bin/bash
+cd $WORKSPACE
+chown -R jenkins $WORKSPACE; sudo -u jenkins ./RunTests.sh
+ '''
+      }
+    } catch (error) {
+
+      helper.fail("AUTOTEST DEV has error", error)
+    }
+  }
+}
