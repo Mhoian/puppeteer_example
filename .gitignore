@@ -4,6 +4,7 @@
 /target/www/**
 /test/target
 /test/build
+*.png
 
 ######################
 # Node

@@ -12,9 +12,7 @@ const debugLaunchOptions = DEBUG_MODE ? {
 } : {};
 
 module.exports = async function () {
-    const browser = await puppeteer.launch({headless: true,
-                                                    slowMo: 100,
-                                                    args: ['--start-maximized',
+    const browser = await puppeteer.launch({args: ['--start-maximized',
                                                         '--no-sandbox',
                                                         '--disable-setuid-sandbox',
                                                         '--disable-dev-shm-usage',
